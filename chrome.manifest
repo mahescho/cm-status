@@ -1,0 +1,5 @@
+content   ciphermail                chrome/content/
+skin      ciphermail  classic/1.0   chrome/skin/
+
+overlay  chrome://messenger/content/mailWindowOverlay.xul  chrome://ciphermail/content/ciphermail.xul 
+

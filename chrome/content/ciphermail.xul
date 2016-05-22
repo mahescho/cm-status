@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml-stylesheet href="chrome://ciphermail/skin/chipermail.css" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://ciphermail/locale/ciphermail.dtd">
+
+<overlay id="ciphermailoverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<script type="application/x-javascript" src="ciphermail.js"/>
+
+	<broadcasterset>
+		<broadcaster id="ciphermailbroadcast" tooltiptext="" src=""/>
+	</broadcasterset>
+
+        <hbox id="expandedHeadersBottomBox">
+		<vbox id="ciphermail" insertbefore="otherActionsBox">
+			<image id="ciphermailicon" observes="ciphermailbroadcast" style="width:48px; height:48px; margin-left:2px; margin-right:2px;" onclick="ciphermail.infopopup();"/>
+			<spacer flex="1"/>
+		</vbox>
+	</hbox>
+
+</overlay>
